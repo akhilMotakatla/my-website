@@ -27,6 +27,29 @@ const experiences = [
       'Implemented Kafka Streams, CI/CD with Azure DevOps, and secure auth with OAuth2.',
     ],
   },
+  {
+    role: 'Software Engineer',
+    company: 'Amigo Smart Tech - Zebra Technologies',
+    duration: 'Feb 2020 - Mar 2022',
+    points: [
+      'Architected, built, and deployed a robust e-commerce platform utilizing ASP.NET Core 5 and Web API, designed to handle heavy traffic and simultaneous user sessions.',
+      'Crafted dynamic, responsive front-end experiences using Angular and Blazor technologies',
+      'Integrated OAuth2 protocols for secure authentication and authorization, resolving token validation, expiration, and revocation challenges in live environments.',
+      'Monitored application performance and diagnostics through Azure Monitor and Application Insights, facilitating proactive troubleshooting of the API Gateway.',
+      'Utilized MSMQ and RabbitMQ for messaging queue management, optimizing throughput and eliminating processing bottlenecks.',
+    ],
+  },
+  {
+    role: 'Software Engineer',
+    company: 'Amigo Smart Tech - Wipro Technologies',
+    duration: 'Jan 2019 - Jan 2020',
+    points: [
+      'Implemented efficient caching strategies that reduced database calls by 15% and improved response times for applications supporting up to 1,500 concurrent users.',
+      'Created and maintained SQL Server database objects such as complex stored procedures, DTS packages, triggers, cursors, tables, views, and various joins and queries.',
+      'Built web applications using Spring MVC, jQuery, HTML5, and Bootstrap for Virtual Infotech Inc., delivering modern and responsive UIs.',
+      
+    ],
+  },
   // Add more entries as needed...
 ];
 
