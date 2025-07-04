@@ -1,24 +1,19 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-const Contact = () => (
-  <section>
-    <h2>Contact</h2>
-    <p>Email: akhilreddy7894112@gmail.com</p>
-    <p>Phone: +1 (940) 629-6557</p>
-    <p>
-      GitHub: <a href="https://github.com/akhilmotakatla" target="_blank" rel="noreferrer">
-        <FaGithub size={24} style={{ marginRight: '8px' }} />
-        github.com/akhilmotakatla
-      </a>
-    </p>
-    <p>
-      LinkedIn: <a href="https://linkedin.com/in/akhilmotakatla" target="_blank" rel="noreferrer">
-        <FaLinkedin size={24} style={{ marginRight: '8px' }} />
-        linkedin.com/in/akhilmotakatla
-      </a>
-    </p>
-  </section>
-);
+const Contact = () => {
+  return (
+    <section id="contact" data-aos="fade-up">
+      <h2>Contact</h2>
+      <div>
+        <p>Feel free to reach out to me via email or connect on LinkedIn.</p>
+        <ul>
+          <li>Email: akhilreddy7894112@example.com</li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/akhil-reddy-motakatla" target="_blank" rel="noopener noreferrer">linkedin.com/in/akhilreddymotakatla</a></li>
+          <li>GitHub: <a href="https://github.com/akhilmotakatla" target="_blank" rel="noopener noreferrer">github.com/akhilmotakatla</a></li>
+        </ul>
+      </div>
+    </section>
+  );
+};
 
 export default Contact;

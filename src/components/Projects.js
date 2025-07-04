@@ -1,23 +1,24 @@
 import React from 'react';
 
-const Projects = () => (
-  <section>
-    <h2>Projects</h2>
-
-    <div>
-      <h3>E-Commerce Analytics Platform</h3>
-      <p>
-        Built an analytics system for customer behavior and sales insights using Azure Data Factory and Power BI, deployed on AKS with .NET Core services.
-      </p>
-    </div>
-
-    <div>
-      <h3>Cloud Cost Optimizer</h3>
-      <p>
-        A tool that analyzes Azure and AWS infrastructure spending and recommends optimizations to reduce costs by 20–30%.
-      </p>
-    </div>
-  </section>
-);
+const Projects = () => {
+  return (
+    <section id="projects" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div>
+        <ul>
+          <li>
+            <strong>E-commerce Platform:</strong> Built with ASP.NET Core 5, Web API, Angular, and Azure. Handled large concurrent traffic.
+          </li>
+          <li>
+            <strong>Analytics Dashboard:</strong> Developed using Blazor and Azure Data Factory. Used for real-time visualization and ETL.
+          </li>
+          <li>
+            <strong>Resume Website:</strong> This site! Built using React with full dark mode and section animations.
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+};
 
 export default Projects;

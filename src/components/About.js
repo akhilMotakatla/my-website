@@ -1,12 +1,16 @@
 import React from 'react';
 
-const About = () => (
-  <section>
-    <h2>About Me</h2>
-    <p>
-      With over 4 years of experience in .NET development, I specialize in building scalable enterprise applications using microservices, Azure, React, and SQL Server. I have a strong background in DevOps, event-driven architecture, and cloud-native development.
-    </p>
-  </section>
-);
+const About = () => {
+  return (
+    <section id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          I'm a passionate software engineer with over 4 years of experience in full-stack .NET development, cloud platforms like Azure and AWS, and modern DevOps practices. I enjoy building scalable systems and mentoring others through teaching and collaboration.
+        </p>
+      </div>
+    </section>
+  );
+};
 
 export default About;

@@ -1,32 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
-import Projects from './components/Projects';
+import Experience from './components/Experience';
 import Contact from './components/Contact';
+import Projects from './components/Projects';
 import AOS from 'aos';
-
 import 'aos/dist/aos.css';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
-
-  // Move useEffect inside the component function
   useEffect(() => {
     AOS.init({ duration: 800 });
   }, []);
 
-  const toggleTheme = () => setDarkMode(!darkMode);
-
   return (
-    <div className={`App ${darkMode ? 'dark' : 'light'}`}>
-      <button className="theme-toggle" onClick={toggleTheme}>
-        Switch to {darkMode ? 'Light' : 'Dark'} Mode
-      </button>
+    <div className="App dark-mode">
       <Header />
-      <About />
       <Contact />
+      <About />
+      <Experience />
       <Projects />
+      
     </div>
   );
 }
